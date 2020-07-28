@@ -60,18 +60,17 @@
       <div class="card-body">
       <h5 class="card-title">{{ continent.name[i] }} - {{i}}</h5>
       <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg-{{i}}">
           More information
         </button>
         </div>
     </div>
         <!-- Modal -->
-        {% for i in numbers %}
-        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg">
+<div class="modal fade bd-example-modal-lg-{{i}}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" id="bd-example-modal-lg{{i}}">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">{{ continent.name[i] }} - {{ i }}</h5>
+                <h5 class="modal-title" id="exampleModalLongTitle" + {{ i }}>{{ continent.name[i] }} - {{ i }}</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -85,7 +84,6 @@
             </div>
           </div>
         </div>
-        {% endfor %}
     </div>
     {% endfor %}
   </div>      
