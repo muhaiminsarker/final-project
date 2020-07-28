@@ -1,27 +1,21 @@
 # ---- YOUR APP STARTS HERE ----
 # -- Import section --
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, Markup
 from datetime import datetime
-from model import getImageUrlFrom
+from model import dictionaryReturner
 import os
 
 # -- Initialization section --
 app = Flask(__name__)
-
-app.config["giphy_key"] = os.getenv("giphy_key")
-
 # -- Routes section --
 @app.route('/')
 @app.route('/index')
 def index():
-    return render_template("index.html", time = datetime.now())
+    return render_template("index.html")
 
-@app.route('/yourgif', methods= ["POST", "GET"])
+@app.route('/australia')
 
-def yourgif():
-    if request.method == 'POST':
-        mychoice= request.form["gifchoice"]
-        source = getImageUrlFrom(mychoice, app.config["giphy_key"])
-        return render_template("yourgif.html", source= source, time = datetime.now())
-    else: 
-        return "Error"
+def australia():
+    myDict = dictionaryReturner()
+    numbers = [0,1,2,3,4,5,6,7]
+    return render_template("template.html", continent= myDict, numbers = numbers)
