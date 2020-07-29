@@ -18,12 +18,12 @@
   <body>
 <style>
       body {
-        background-color: #5cdb95;
+        background-color: beige;
       }
     </style>
     <!-- Navbar !-->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:  #5cdb95;">
-  <a class="navbar-brand" href="/">Logo</a>
+ <a class="navbar-brand" href="/"><img src = '/static/images/logo.png'></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -38,7 +38,7 @@
           <a class="dropdown-item" href="/antarctica">Antarctica</a>
           <a class="dropdown-item" href="/asia">Asia</a>
           <a class="dropdown-item" href="/australia">Australia</a>
-          <a class="dropdown-item" href="europe.html">Europe</a>
+          <a class="dropdown-item" href="/europe">Europe</a>
           <a class="dropdown-item" href="/northAmerica">North America</a>
           <a class="dropdown-item" href="/southAmerica">South America</a>
         </div>
@@ -47,14 +47,46 @@
         <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="/about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="donate.html">Donate</a>
+        <a class="nav-link" href="/donate">Donate</a>
       </li>
     </ul>
   </div>
 </nav>
+
+<img class = "homeimg" src = "aussie.jpg">
+
+<h1 class = "animate__animated animate__fadeInUp" >Welcome to {{continent.welcome}}</h1>
+<div class = "container">
+  <div class = "row">
+    <div class = "col-md-3">
+
+    </div>
+    <div class = "col-md-6">
+      <p  class = "animate__animated animate__fadeInUp" >{{continent.welcomeDetails}}</p>
+    </div>
+    <div class = "col-md-3">
+      
+    </div>
+  </div>
+</div>
+
+<!-- Feautured animals !-->
+<h1>Featured Animal of the Week</h1>
+<div class = "animal container">
+  <div class = "row">
+    <div class = "col-md-7">
+      <img src = "{{continent.featuredImage}}">
+    </div>
+    <div class = "col-md-5">
+      <p>{{continent.featuredText}}</p>
+    </div>
+  </div>
+</div>
+
+
 
 <h1 style= "text-align:center">{{ continent.title }}</h1>
 

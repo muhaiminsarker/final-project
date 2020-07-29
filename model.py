@@ -1,4 +1,8 @@
 australiaDict= {
+        "welcome": "Australia and New Zealand", 
+        "welcomeDetails": "", 
+        "featuredImage": "", 
+        "featuredText": "",
         "title" : "Australia and New Zealand's Endangered Species", 
         "name": [
             "The Northern Hairy-Nosed Wombat",
@@ -38,6 +42,10 @@ def australiaReturner():
 
 
 antarcticaDict= {
+        "welcome": "Antarctica", 
+        "welcomeDetails": "", 
+        "featuredImage": "",
+        "featuredText": "",
         "title" : "Antarctica's Endangered Species", 
         "name": [
             "Emperor Penguin",
@@ -66,6 +74,10 @@ def antarcticaReturner():
 
 
 africaDict= {
+        "welcome": "Africa", 
+        "welcomeDetails": "", 
+        "featuredImage": "",
+        "featuredText": "",
         "title" : "Africa's Endangered Species", 
         "name": [
             "Addax",
@@ -94,6 +106,10 @@ def africaReturner():
 
 
 SADict= {
+        "welcome": "South America", 
+        "welcomeDetails": "", 
+        "featuredImage": "",
+        "featuredText": "",
         "title" : "South America's Endangered Species", 
         "name": [
             "Blue Throated Macaw", 
@@ -121,6 +137,10 @@ def SAReturner():
     return SADict
 
 NADict= {
+        "welcome": "North America", 
+        "welcomeDetails": "", 
+        "featuredImage": "",
+        "featuredText": "",
         "title" : "North America's Endangered Species", 
         "name": [
             "Alabama Cavefish",
@@ -149,6 +169,10 @@ def NAReturner():
     return NADict
 
 asiaDict= {
+        "welcome": "Asia", 
+        "welcomeDetails": "", 
+        "featuredImage": "",
+        "featuredText": "",
         "title" : "Asia's Endangered Species", 
         "name": [
         "Chinese Alligator", 
@@ -177,6 +201,10 @@ def asiaReturner():
     return asiaDict
 
 europeDict= {
+        "welcome": "Europe",
+        "welcomeDetails": "",
+        "featuredImage": "",
+        "featuredText": "",
         "title" : "Europe's Endangered Species", 
         "name": [
         "Golden Hamster", 

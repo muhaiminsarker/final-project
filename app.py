@@ -6,10 +6,12 @@ from model import australiaReturner, antarcticaReturner, africaReturner, SARetur
 # -- Initialization section --
 app = Flask(__name__)
 # -- Routes section --
+
 @app.route('/')
 @app.route('/index')
 def index():
     return render_template("index.html")
+
 
 @app.route('/australia')
 
