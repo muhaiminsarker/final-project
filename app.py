@@ -1,7 +1,7 @@
 # ---- YOUR APP STARTS HERE ----
 # -- Import section --
 from flask import Flask, render_template
-from model import australiaReturner, antarcticaReturner, africaReturner, SAReturner
+from model import australiaReturner, antarcticaReturner, africaReturner, SAReturner, NAReturner, asiaReturner, europeReturner
 
 # -- Initialization section --
 app = Flask(__name__)
@@ -33,4 +33,23 @@ def africa():
 
 def SA():
     myDict = SAReturner()
+    return render_template("template.html", continent= myDict)
+
+@app.route('/northAmerica')
+
+def NA():
+    myDict = NAReturner()
+    return render_template("template.html", continent= myDict)
+
+
+@app.route('/asia')
+
+def asia():
+    myDict = asiaReturner()
+    return render_template("template.html", continent= myDict)
+
+@app.route('/europe')
+
+def europe():
+    myDict = europeReturner()
     return render_template("template.html", continent= myDict)
