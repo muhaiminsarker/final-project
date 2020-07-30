@@ -24,13 +24,13 @@
         background-color: beige;
       }
     </style>
-    <!-- Navbar !-->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: beige;">
+  <!-- Navbar !-->
+   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: beige;">
   <a class="navbar-brand" href="/"><img src = '/static/images/logo.png'></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -60,21 +60,75 @@
 </nav>
 
 
+<img class = "homeimg" src = "https://cdn.pixabay.com/photo/2018/02/04/09/43/nature-3129414_960_720.jpg">
 
-<footer class="site-footer">
+
+     <h1>Donate</h1>
+
+<div class="donation-container">
+            
+            <div class="donation-box">
+	            <div class="title">Donation Information</div>
+	            
+	            <div class="fields">
+		            <input type="text" id="firstName" placeholder="First Name"> </input>
+		            <input type="text" id="lastName" placeholder="Last Name"> </input>
+		            <input type="text" id="email" placeholder="Email"> </input>
+	            </div>
+	            
+	            <div class="amount">
+		            <div class="button">$30</div>
+		            <div class="button">$50</div>
+		            <div class="button">$100</div>
+		            <div class="button">$<input type="text" class="set-amount" placeholder=""> </input></div>
+	            </div>
+	            
+	            <div class="switch">
+					<input type="radio" class="switch-input" name="view" value="One-Time" id="one-time" checked="">
+					<label for="one-time" class="switch-label switch-label-off">One-Time</label>
+					<input type="radio" class="switch-input" name="view" value="Monthly" id="monthly">
+					<label for="monthly" class="switch-label switch-label-on">Monthly</label>
+					<span class="switch-selection"></span>
+			    </div>
+			    
+			    <div class="checkboxes">
+					<input type="checkbox" id="receipt" class="checkbox" />
+					<label for="receipt">Email Me A Receipt</label>
+					<br />
+					<input type="checkbox" id="anon" class="checkbox" />
+					<label for="anon">Give Anonymously</label>
+					<br />
+					<input type="checkbox" id="list" class="checkbox" />
+					<label for="list">Add Me To Email List</label>
+			    </div>
+			    
+			    <div class="confirm">
+				    
+			    </div>
+	            
+	            <div class="donate-button"><i class="fa fa-credit-card"></i> Donate Now</div>
+            </div>
+            
+        </div>
+
+
+
+
+<!-- Site footer -->
+    <footer class="site-footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-sm-12 col-md-6">
             <h6>About</h6>
-            <p class="text-justify">Endangered Species.<i> For nearly 60 years, WWF has worked to help people and nature thrive.As the world’s leading conservation organization, WWF works in more than 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live. World Wildlife Fund Inc. is a nonprofit, tax-exempt charitable organization (tax ID number 52-1693387) under Section 501(c)(3) of the Internal Revenue Code. Donations are tax-deductible as allowed by law.</p>
+            <p class="text-justify">growtheanimals.com <i>Grow the animals</i> is an initiative to help endangered animals whos exsistance is threatened. Our mission is to conserve animals and reduce the most pressing threats to the diversity of life on Earth. Grow the Animals is a nonprofit, tax-exempt charitable organization under Section 501(c)(3) of the Internal Revenue Code. Donations are tax-deductible as allowed by law.</p>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-xs-6 col-md-3">
             <h6>Continents</h6>
             <ul class="footer-links">
               <li><a href="/africa">Africa</a></li>
               <li><a href="/asia">Asia</a></li>
-              <li><a href="/antarctica">Antarctica</a></li>
+              <li><a href="/antarctica">Anarctica</a></li>
               <li><a href="/europe">Europe</a></li>
               <li><a href="/australia">Australia</a></li>
               <li><a href="/northAmerica">North America</a></li>
@@ -82,7 +136,7 @@
             </ul>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-xs-6 col-md-3">
             <h6>Quick Links</h6>
             <ul class="footer-links">
               <li><a href="/about">About Us</a></li>
@@ -90,11 +144,11 @@
 
             </ul>
           </div>
-
         </div>
         <hr>
+      </div>
+      <div class="container">
         <div class="row">
-         
           <div class="col-md-8 col-sm-6 col-xs-12">
             <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
          <a href="#">Abdalla and Muhaimin</a>.
@@ -103,10 +157,10 @@
 
           <div class="col-md-4 col-sm-6 col-xs-12">
             <ul class="social-icons">
-              <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-              <li><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"aria-hidden="true"></i></a></li>
-              <li><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>   
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
             </ul>
           </div>
         </div>

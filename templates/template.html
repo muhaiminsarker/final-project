@@ -14,6 +14,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
   />
   <link href="static/css/style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
 <style>
@@ -56,7 +57,7 @@
   </div>
 </nav>
 
-<img class = "homeimg" src = "aussie.jpg">
+<img class = "homeimg" src = "{{continent.homeImage}}">
 
 <h1 class = "animate__animated animate__fadeInUp" >Welcome to {{continent.welcome}}</h1>
 <div class = "container">
@@ -65,7 +66,7 @@
 
     </div>
     <div class = "col-md-6">
-      <p  class = "animate__animated animate__fadeInUp" >{{continent.welcomeDetails}}</p>
+      <p  class = "animate__animated animate__fadeInUp" >{{continent.welcomeDetails | safe}}</p>
     </div>
     <div class = "col-md-3">
       
@@ -78,10 +79,10 @@
 <div class = "animal container">
   <div class = "row">
     <div class = "col-md-7">
-      <img src = "{{continent.featuredImage}}">
+      <img class= "asiaani" src = "{{continent.featuredImage}}">
     </div>
     <div class = "col-md-5">
-      <p>{{continent.featuredText}}</p>
+      {{continent.featuredText|safe}}
     </div>
   </div>
 </div>

@@ -1,9 +1,10 @@
 australiaDict= {
+        "homeImage" : "static/images/aussie.jpg", 
         "welcome": "Australia and New Zealand", 
-        "welcomeDetails": "", 
-        "featuredImage": "", 
-        "featuredText": "",
-        "title" : "Australia and New Zealand's Endangered Species", 
+        "welcomeDetails": "The distribution of climates, topography, and soils that has produced the zones and ecological variation of Australian vegetation has also been reflected in the distribution of animal life. Australia probably has between 200,000 and 300,000 species, about 100,000 of which have been described. There are some 250 species of native mammals, 550 species of land and aquatic birds, 680 species of reptiles, 190 species of frogs, and more than 2,000 species of marine and freshwater fish. The remainder are invertebrates, including insects."
+        , "featuredImage": "https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/australia/Gouldian-Finch_Sompreaw.jpg?crop=0,318,6688,3511&wid=1200&hei=630&scl=5.573333333333333", 
+        "featuredText": "<h4>Gouldian Finch</h4> <p>The Gouldian Finch is perhaps the most beautiful small bird in the world. The impressive colour of its plumage appealed to bird enthusiasts and hence large number of them were trapped in the wild for the local and international bird trade up until the early 1980s. This along with a parasitic air-sac mite and habitat changes as a result of land clearing and fire are the main causes of their decline.  Fire plays a large role in their survival. In the dry season, they are dependent on controlled fires to burn the undergrowth so that they can find seeds on the ground to feed on. In the wet season, they prefer to live in areas which have been burned in the previous dry season. This produces lush new growth with plenty of seeds for food. Improved burning practices are helping them make a comeback. </p>"
+        , "title" : "Australia and New Zealand's Endangered Species", 
         "name": [
             "The Northern Hairy-Nosed Wombat",
             "Toolache Wallaby",
@@ -42,11 +43,12 @@ def australiaReturner():
 
 
 antarcticaDict= {
+        "homeImage" : "static/images/antarctica.jpg", 
         "welcome": "Antarctica", 
-        "welcomeDetails": "", 
-        "featuredImage": "",
-        "featuredText": "",
-        "title" : "Antarctica's Endangered Species", 
+        "welcomeDetails": "Antarctica has an abundance of animal life including the charismatic mega fauna that you have seen pictures and videos of, though you may be surprised to find that they live far more interesting and complex lives than you imagine. Almost all of these animals are dependent on the sea, the largest truly land animal is a wingless midge about 13mm / 0.5 of an inch long. As the animal life is dependent on the sea and are mainly warm blooded, they tend to be pretty large as a survival technique against the extreme and relentless cold. That Antarctica can support such an abundance of large animals is a result of the productivity of the southern polar sea."
+        , "featuredImage": "https://c402277.ssl.cf1.rackcdn.com/photos/308/images/story_full_width/Fin_WHale_Why_they_matter_Image_204741.jpg?1345519291",
+        "featuredText": "<h4>Fin Whale</h4>  <p>Some scientists have speculated that fin whales circle schools of fish with the white side facing the prey and frightening them into denser schools that are easier for the whale to catch. The fin whale, like other baleen whales, strains its food from the water through baleen plates. Next to the blue whale, the fin whale is the second largest mammal in the world. They have a distinct ridge along their back behind the dorsal fin, which gives it the nickname razorback. Fin whales have a very unusual feature: the lower right jaw is bright white and the lower left jaw is black.</p>"
+        , "title" : "Antarctica's Endangered Species", 
         "name": [
             "Emperor Penguin",
             "Macaroni Penguin",
@@ -74,11 +76,12 @@ def antarcticaReturner():
 
 
 africaDict= {
+        "homeImage" : "static/images/africa.jpg", 
         "welcome": "Africa", 
-        "welcomeDetails": "", 
-        "featuredImage": "",
-        "featuredText": "",
-        "title" : "Africa's Endangered Species", 
+        "welcomeDetails": "There are many incredible wildlife experiences to be had around the world but it is the wildlife of Africa that continues to draw gasps of wonder from visitors. Immortalised over time African wildlife is one of the top travel attractions in the world.Many animal species adapt to specific habitats, e.g. water, desert or mountains, but there are a number that are able to survive in a number of extremely varying habitats. Some of the better known of Africa's large mammals such as lions, elephants and leopards are found in habitats ranging from very arid to marshes and swamps. Earnest Hemingway wrote: 'There can be no greater sight than that of a full-maned lion on the plains of Africa', and yes this is indeed a magnificent image, but Africa has far more than these scenes occurring daily. Renowned for its unrivalled imagery and drama the African wildlife and wilderness will never fail to inspire those who embrace it."
+        , "featuredImage": "https://c402277.ssl.cf1.rackcdn.com/photos/1382/images/story_full_width/Black_Rhino_8.6.2012_Why_they_matter_HI_204737.jpg?1345543817",
+        "featuredText": "<h4>Black Rhino</h4> <p>Black rhinos are the smaller of the two African rhino species. The most notable difference between white and black rhinos are their hooked upper lip. This distinguishes them from the white rhino, which has a square lip. Black rhinos are browsers rather than grazers, and their pointed lip helps them feed on leaves from bushes and trees. They have two horns, and occasionally a third, small posterior horn. Populations of black rhino declined dramatically in the 20th century at the hands of European hunters and settlers. Between 1960 and 1995, black rhino numbers dropped by a sobering 98%, to less than 2,500. Since then, the species has made a tremendous comeback from the brink of extinction. Thanks to persistent conservation efforts across Africa, black rhino numbers have doubled from their historic low 20 years ago to between 5,042 and 5,455 today. However, the black rhino is still considered critically endangered, and a lot of work remains to bring the numbers up to even a fraction of what it once was—and to ensure that it stays there. Wildlife crime—in this case, poaching and black-market trafficking of rhino horn—continues to plague the species and threaten its recovery.</p>"
+        , "title" : "Africa's Endangered Species", 
         "name": [
             "Addax",
             "African Bush Elephant",
@@ -106,11 +109,12 @@ def africaReturner():
 
 
 SADict= {
+        "homeImage" : "static/images/southa.jpg", 
         "welcome": "South America", 
-        "welcomeDetails": "", 
-        "featuredImage": "",
-        "featuredText": "",
-        "title" : "South America's Endangered Species", 
+        "welcomeDetails": "South American animal life is particularly rich and well diversified as a result of the wide range of habitats. Moreover, because of its isolation from the rest of the world during Paleogene and Neogene times (about 66 to 2.6 million years ago), the South American landmass is characterized by considerable biological originality. Many animals belong to exclusive groups, and even at the family level the percentage of endemic forms is high. Speciation has reached a higher degree in South America than in other parts of the world. Nonetheless, there are some similarities between South America’s fauna and that of other continents as a result of past geologic developments. Ancient groups of animals including mollusks, chilopods, some fishes, reptiles, and amphibians show affinities with the animal life of Africa, Australia, and New Zealand. More recent species, mostly vertebrates, migrated from North America. Animals such as armadillos, anteaters, porcupines, and opossums migrated in both directions."
+        ,  "featuredImage": "https://c402277.ssl.cf1.rackcdn.com/photos/1180/images/story_full_width/Black_Spider_monkey_8.1.2012_whytheymatter_HI_111629.jpg?1345539241",
+        "featuredText": "<p>The black spider monkey—also known as the Guiana or red-faced spider monkey—is found in eastern South America in areas north of the Amazon River. They are one of seven species of spider monkeys found in Latin America and one of the largest primate species in South America.To combat the destruction of the black spider monkey’s habitat, Grow the Animals works to protect the forests they need to survive. We support the creation and management of protected areas and promote responsible forest management, including Forest Stewardship Council (FSC) certification, outside of protected areas.</p>"
+        ,"title" : "South America's Endangered Species", 
         "name": [
             "Blue Throated Macaw", 
             "Brazilian Merganser", 
@@ -137,10 +141,12 @@ def SAReturner():
     return SADict
 
 NADict= {
+    "homeImage" : "static/images/northa.jpg",   
         "welcome": "North America", 
-        "welcomeDetails": "", 
-        "featuredImage": "",
-        "featuredText": "",
+        "welcomeDetails": "The native wildlife of North America was once numerous and diverse, but the spread of human settlement has resulted in contracting habitats and diminishing numbers. In general, the fauna of North America is similar to that of the northern areas of Europe and Asia. Notable large mammals include several kinds of bear, the largest being the grizzly; bighorn sheep; bison, now only in protected herds; caribou; moose, called elk in Europe; musk ox; and wapiti. Large carnivores include the puma and, in southernmost regions, the jaguar; the wolf and its smaller relative, the coyote; and, in the far north, the polar bear. One species of marsupial, the common opossum, is indigenous to the continent. A few of the many reptiles are poisonous, including the coral snake, pit vipers such as the rattlesnake and copperhead, and the Gila monster and beaded lizard of the south-western United States and Mexico, the only poisonous lizards in the world. A great variety of finfish and shellfish live in the marine waters off North America, and many kinds of fish are found in its freshwater rivers and lakes."
+        , "featuredImage": "https://c402277.ssl.cf1.rackcdn.com/photos/10651/images/story_full_width/cbolt_09232015_DSC5155.jpg?1452531815",
+        "featuredText": " <h4>Black-Footed Ferrets</h4> <p>Once thought to be globally extinct, black-footed ferrets are making a comeback. For the last thirty years, concerted efforts from many state and federal agencies, zoos, Native American tribes, conservation organizations and private landowners have given black-footed ferrets a second chance for survival. Today, recovery efforts have helped restore the black-footed ferret population to nearly 300 animals across North America. Although great strides have been made to recover the black-footed ferret, habitat loss and disease remain key threats to this highly endangered species.</p>"
+        ,
         "title" : "North America's Endangered Species", 
         "name": [
             "Alabama Cavefish",
@@ -169,11 +175,12 @@ def NAReturner():
     return NADict
 
 asiaDict= {
+    "homeImage" : "static/images/asia.jpg", 
         "welcome": "Asia", 
-        "welcomeDetails": "", 
-        "featuredImage": "",
-        "featuredText": "",
-        "title" : "Asia's Endangered Species", 
+        "welcomeDetails": "A continent of fascinating contrasts, Asia’s wildlife is as vast and varied as the landscape itself. Animals here range from bold, mischievous monkeys to shy freshwater dolphins and a whole host of large mammals and rare species. Topping the Asia wildlife bucket-list is perhaps India’s Ranthambore National Park – one of the best places in the world to discover the elusive tiger, and also home to leopards and crocodiles. Combine this with a wonderful overview of northern India on the 10 night Temple, Tiger & Taj Trail tour. In Nepal, one of the wildlife highlights lies in Chitwan National Park, at the foot of the Himalayas. Nepal’s oldest national park, it provides habitat to both the rare Indian rhino and Bengal tiger. The Nepalese Explorer tourincludes a two-night stay in the national park as part of an exciting seven night round trip from Kathmandu. Amongst a multitude of experiences, other wildlife viewing in Asia includes seeing the enigmatic orangutans in Borneo, visiting giant pandas in China’s Sichuan province, and spotting the Asian elephant everywhere from India to Borneo. And then there’s south-east Asia’s underwater world. Go snorkelling or diving in southern Thailand to spot turtles and leopard sharks; or venture to southern Laos for a chance to see rare Irrawaddy dolphins in the Mekong River."
+        , "featuredImage": "https://c402277.ssl.cf1.rackcdn.com/photos/18376/images/story_full_width/Herd_of_Asian_Elephants_WW128594.jpg?1576770699",
+        "featuredText": " <h4>Asian Elephant</h4> <p>The Asian elephant is the largest land mammal on the Asian continent. They inhabit dry to wet forest and grassland habitats in 13 range countries spanning South and Southeast Asia. While they have preferred forage plants, Asian elephants have adapted to surviving on resources that vary based on the area. Asian elephants are extremely sociable, forming groups of six to seven related females that are led by the oldest female, the matriarch. Like African elephants, these groups occasionally join others to form larger herds, although these associations are relatively short-lived. In Asia, elephant herd sizes are significantly smaller than those of savannah elephants in Africa. More than two-thirds of an elephant's day may be spent feeding on grasses, but it also eats large amounts of tree bark, roots, leaves, and small stems. Cultivated crops such as bananas, rice, and sugarcane are favorite foods. Elephants are always close to a source of fresh water because they need to drink at least once a day. In Asia, humans have had close associations with elephants over many centuries, and elephants have become important cultural icons. According to Hindu mythology, the gods (deva) and the demons (asura) churned the oceans in a search for the elixir of life so that they would become immortal. As they did so, nine jewels surfaced, one of which was the elephant. In Hinduism, the powerful deity honored before all sacred rituals is the elephant-headed Lord Ganesha, who is also called the Remover of Obstacles.</p>"
+        , "title" : "Asia's Endangered Species", 
         "name": [
         "Chinese Alligator", 
         "Sumatran Orangutan", 
@@ -183,9 +190,9 @@ asiaDict= {
         ,
         "image" : [
         "https://www.marylandzoo.org/wp-content/uploads/2018/09/yang2-1024x683.jpg", 
-        "https://lh3.googleusercontent.com/proxy/g4JG1Bi30WXuX8fpAg840HsCYS4BU1R-eVVsa4pC1FJE4JlEPvgWabed1rImWyN_LVqG4SR4hd4Cwh_lcwD2ZDqbWnnCr-9eXbkMl4CuykaG-3PBSoYfLy1OOldoAbaxZHQaUjaNOyI1ubhjuQril-aLzPuC1v5K2h0yYISxZizcjv-MrvDnlogPoAl3cBTftoFZIS0qCMiWxVGTRgrzGsWoBTLmCcU", 
+        "https://upload.wikimedia.org/wikipedia/commons/2/2c/Sumatra-Orang-Utan_im_Pongoland.jpg", 
         "https://upload.wikimedia.org/wikipedia/commons/5/57/Saiga_antelope_at_the_Stepnoi_Sanctuary.jpg", 
-        "https://lh3.googleusercontent.com/proxy/mMlgVE2wdnV4vsir3Xp5rHb47algkBiz435z2YsxQ3D9MRY9EQCbwq-xORmC8svxLo0xg5x4FRqhjV4AB9nCzu74tgAR9B6rqYf7R0vlBuFQEW51BSIos8picPDT_EPo4hWWnp4DSzgHi9By_nrh8ZEe5KT8qmjFBN5d"
+        "https://upload.wikimedia.org/wikipedia/commons/0/0f/Grosser_Panda.JPG"
         ]
         , 
         "narrative": [
@@ -201,11 +208,12 @@ def asiaReturner():
     return asiaDict
 
 europeDict= {
+    "homeImage" : "static/images/europe.jpg", 
         "welcome": "Europe",
-        "welcomeDetails": "",
-        "featuredImage": "",
-        "featuredText": "",
-        "title" : "Europe's Endangered Species", 
+        "welcomeDetails": "Europe is a large area - a total of about 3.9 million square miles, which is even bigger than the United States. Because of its size, it's hugely varied in climate, with a total of eight distinct climate regions. These include semiarid, Mediterranean, humid subtropical, marine, humid continental, subarctic, tundra, and highland climates. Since plant and animal life varies by climate, it should also not be surprising that the native plants and animals that call Europe home are equally varied, though many have been pushed aside or wiped out by human activities (often named the Holocene extinction). Today we're going to talk about some of the native plants and animals that live in Europes many climate regions." 
+        , "featuredImage": "https://c402277.ssl.cf1.rackcdn.com/photos/2979/images/story_full_width/GPN232822_%28c%29_Paul_Nicklen_National_Geographic_Stock_WWF_Canada.jpg?1354044756",
+        "featuredText": "<p>The narwhal looks like a cross between a whale and a unicorn with its long, spiraled tusk jutting from its head. Males most commonly have tusks, and some may even have two. The tusk, which can grow as long as 10 feet, is actually an enlarged tooth. Ongoing research by WWF collaborators indicates that the tusk has sensory capability, with up to 10 million nerve endings inside. The tusk may also play a role in the ways males exert dominance. Narwhals spend their lives in the Arctic waters of Canada, Greenland, Norway and Russia. The majority of the world’s narwhals winter for up to five months under the sea ice in the Baffin Bay-Davis Strait area (between Canada and western Greenland). Cracks in the ice allow them to breathe when needed, especially after dives, which can be up to a mile and a half deep. They feed mainly on Greenland halibut, along with other fish, squid and shrimp.</p>"
+        , "title" : "Europe's Endangered Species", 
         "name": [
         "Golden Hamster", 
         "Arctic Fox", 
