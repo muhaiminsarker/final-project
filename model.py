@@ -85,7 +85,7 @@ africaDict= {
         "name": [
             "Addax",
             "African Bush Elephant",
-            "African Wild Ass", 
+            "African Wild Donkey", 
             "Black Rhinoceros"
             ]
             ,
