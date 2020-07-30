@@ -3,13 +3,19 @@
   height: auto;
 }
 
+.homeim{
+  width: 100%;
+  height: 50%;
+}
+
 .conimg{
   display: block;
   margin: auto;
   border-radius: 50%;
+  padding-bottom: 15px;
 }
 
-.button {
+button {
   display: block;
   max-width: 300px;
   margin: auto;
@@ -19,10 +25,21 @@ h1{
   text-align: center;
   padding: 50px;
   color: #05386B;
+  font-family: 'Cinzel', serif;
+}
+
+h4{
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  color: black;
+  font-family: 'Cinzel', serif;
+  font-weight: 500;
 }
 
 .featured{
-color: #05386B
+color: #05386B;
 }
 
 body{
@@ -36,11 +53,33 @@ body{
   width: 100%;
 }
 
-coninfo{
+.coninfo{
   text-align: center;
   display: block;
   margin: 20px;
 }
+
+.orgimg{
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  padding-bottom: 15px;
+}
+
+p{
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}
+
+card{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.dontation{
+  background-color: white;
+}
+
 
 
 
